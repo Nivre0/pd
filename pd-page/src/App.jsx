@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Learning from "./pages/Learning";
+import FunkCodes from "./pages/FunkCodes";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/learning" element={<Learning />} />
+            <Route path="/learning/funk-codes" element={<FunkCodes />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
