@@ -51,6 +51,15 @@ export default function NavBar() {
             <div className="absolute right-0 mt-2 hidden min-w-[180px] rounded-2xl border border-white/10 bg-primary shadow-lg group-hover:block">
               <div className="p-2">
                 <Link
+                  to="/reglement"
+                  className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
+                >
+                  Polizei Reglement
+                </Link>
+              </div>
+
+              <div className="p-2">
+                <Link
                   to="/learning/funk-codes"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
                 >
