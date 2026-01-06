@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Learning from "./pages/Learning";
 import FunkCodes from "./pages/FunkCodes";
 import FunkCodesLearn from "./pages/FunkCodesLearn";
+import Kleiderordnung from "./pages/Kleiderordnung";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
             <Route path="/learning" element={<Learning />} />
             <Route path="/learning/funk-codes" element={<FunkCodes />} />
             <Route path="/learning/funk-codes/lernen" element={<FunkCodesLearn />} />
+            <Route path="/kleiderordnung" element={<Kleiderordnung />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

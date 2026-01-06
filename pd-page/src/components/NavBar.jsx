@@ -57,6 +57,15 @@ export default function NavBar() {
                   Funk Codes
                 </Link>
               </div>
+
+              <div className="p-2">
+                <Link
+                  to="/kleiderordnung"
+                  className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
+                >
+                  Kleiderordnung
+                </Link>
+              </div>
             </div>
           </div>
         </nav>
