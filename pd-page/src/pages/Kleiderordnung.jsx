@@ -43,7 +43,7 @@ export default function Kleiderordnung() {
           Brille, usw. selber wählen, es sollte jedoch professionell bleiben.
         </p>
         <p className="text-white/90">
-          Passt euer Oberteil gemäss eurem Rang an (siehe PDF oben).
+          Passt euer Oberteil gemäss eurem Rang an (siehe Bild unten).
         </p>
       </div>
 
