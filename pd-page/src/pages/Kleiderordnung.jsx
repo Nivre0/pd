@@ -1,13 +1,6 @@
 import { useRef, useState } from "react";
 import organigramRanks from "../assets/OrganigramRanks.png";
-
-const OUTFITS = [
-  { title: "Aspirant", code: "MX2UYS" },
-  { title: "Polizist (Sommer)", code: "FR11Y3" },
-  { title: "Polizist (Winter)", code: null, note: "Kommt noch" },
-  { title: "Motorradstreife", code: null, note: "Kommt noch" },
-  { title: "Diamant", code: null, note: "Kommt noch" },
-];
+import outfits from "../data/kleiderordnungOutfits.json";
 
 export default function Kleiderordnung() {
   const [copiedCode, setCopiedCode] = useState(null);
@@ -19,7 +12,6 @@ export default function Kleiderordnung() {
     try {
       await navigator.clipboard.writeText(code);
     } catch {
-      // Fallback
       const ta = document.createElement("textarea");
       ta.value = code;
       document.body.appendChild(ta);
@@ -30,12 +22,10 @@ export default function Kleiderordnung() {
 
     setCopiedCode(code);
 
-    // Timer resetten, falls schnell mehrfach kopiert wird
     if (hideTimerRef.current) {
       clearTimeout(hideTimerRef.current);
     }
 
-    // Modal nach 2 Sekunden ausblenden
     hideTimerRef.current = setTimeout(() => {
       setCopiedCode(null);
       hideTimerRef.current = null;
@@ -65,7 +55,7 @@ export default function Kleiderordnung() {
         </p>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {OUTFITS.map((o) => {
+          {outfits.map((o) => {
             const disabled = !o.code;
 
             return (
@@ -84,7 +74,9 @@ export default function Kleiderordnung() {
               >
                 {/* Bild Platzhalter */}
                 <div className="mb-4 flex h-36 items-center justify-center rounded-xl border border-white/10 bg-primary/40">
-                  <span className="text-white/50 text-sm">Bild Platzhalter</span>
+                  <span className="text-white/50 text-sm">
+                    Bild Platzhalter
+                  </span>
                 </div>
 
                 <div className="flex items-start justify-between gap-3">
@@ -93,7 +85,9 @@ export default function Kleiderordnung() {
                       {o.title}
                     </div>
                     {o.note && (
-                      <div className="mt-1 text-sm text-white/60">{o.note}</div>
+                      <div className="mt-1 text-sm text-white/60">
+                        {o.note}
+                      </div>
                     )}
                   </div>
 
@@ -122,12 +116,12 @@ export default function Kleiderordnung() {
         />
       </div>
 
-      {/* Sticky Modal / Toast unten */}
+      {/* Sticky Toast unten */}
       {copiedCode && (
         <div className="fixed bottom-4 left-1/2 z-50 w-[calc(100%-2rem)] max-w-lg -translate-x-1/2">
           <div className="rounded-2xl border border-accent/40 bg-primary/95 backdrop-blur px-5 py-4 shadow-lg">
             <div className="text-sm text-white/70">Code kopiert</div>
-            <div className="mt-1 flex items-center gap-2">
+            <div className="mt-1">
               <span className="font-mono text-accentText text-lg">
                 {copiedCode}
               </span>
