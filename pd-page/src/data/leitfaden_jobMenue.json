@@ -1,0 +1,26 @@
+{
+  "id": "job-menue",
+  "titel": "Job-Menü (Exklusive Funktionen)",
+  "punkte": [
+    {
+      "titel": "Rechnung usstelle",
+      "details": [
+        "Person auswählen, Busse in CHF angeben, Grund nennen",
+        "Wichtig: \"Firma bechunnds Geld\" (sonst Korruption)",
+        "\"Jobname in Rechnung anzeigen\" egal"
+      ]
+    },
+    {
+      "titel": "Fahrzüg ufbreche",
+      "details": [
+        "Aufbrechen eines geschlossenen Fahrzeugs (dauert ca. 10s, nachher einmal einsteigen)"
+      ]
+    },
+    {
+      "titel": "Lizenze überprüfe",
+      "details": [
+        "Überprüfung der Lizenzen einer Person (Erstellen nicht erlaubt!)"
+      ]
+    }
+  ]
+}
