@@ -8,7 +8,7 @@ export default function Ausruestung() {
       </h1>
 
       <p className="text-white/85 max-w-3xl">
-        {ausruestung.einleitung}
+        Bevor Sie Ihren Dienst antreten, überprüfen Sie bitte, ob Ihre Dienstausrüstung vollständig ist. Achten Sie darauf, dass Sie möglicherweise nicht alle Waffen mitnehmen dürfen.
       </p>
 
       <div className="space-y-6">
