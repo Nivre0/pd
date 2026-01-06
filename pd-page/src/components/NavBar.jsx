@@ -1,4 +1,5 @@
 import { NavLink, Link } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 const linkBase =
   "px-4 py-2 rounded-xl font-medium transition border";
@@ -11,8 +12,17 @@ export default function NavBar() {
   return (
     <header className="sticky top-0 z-50 bg-primary/95 backdrop-blur border-b border-white/10">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
-        {/* Left: Brand */}
-        <div className="text-accentText font-bold text-lg">PD Page</div>
+        {/* Logo links → Home */}
+        <Link to="/" className="flex items-center gap-3">
+          <img
+            src={logo}
+            alt="Logo"
+            className="h-10 w-10 rounded-full"
+          />
+          <span className="hidden sm:block font-bold text-accentText text-lg">
+            PD Page
+          </span>
+        </Link>
 
         {/* Navigation */}
         <nav className="flex items-center gap-2">
@@ -26,7 +36,7 @@ export default function NavBar() {
             Home
           </NavLink>
 
-          {/* Leitfaden dropdown */}
+          {/* Leitfaden Dropdown */}
           <div className="relative group">
             <NavLink
               to="/learning"
