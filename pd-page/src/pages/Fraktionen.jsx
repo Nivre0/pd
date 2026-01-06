@@ -29,6 +29,11 @@ export default function Fraktionen() {
                 </div>
 
                 <div>
+                  <span className="font-semibold text-accentText">12er:</span>{" "}
+                  {f.leader}
+                </div>
+
+                <div>
                   <span className="font-semibold text-accentText">Status:</span>{" "}
                   {f.status}
                 </div>

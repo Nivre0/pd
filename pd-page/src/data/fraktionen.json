@@ -2,26 +2,31 @@
     {
         "name": "Azura",
         "farbe": "Schwarz",
+        "leader": "",
         "status": "Terrorstatus"
     },
     {
         "name": "Asiret",
         "farbe": "",
+        "leader": "",
         "status": "Positiv"
     },
     {
         "name": "Phantom",
         "farbe": "",
+        "leader": "",
         "status": "Beobachtung"
     },
     {
         "name": "LostMC",
         "farbe": "Weiss",
+        "leader": "",
         "status": "Neutral"
     },
     {
         "name": "Tenshis",
         "farbe": "",
+        "leader": "",
         "status": "Neutral"
     }
 ]
