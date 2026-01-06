@@ -3,7 +3,7 @@ import rechte from "../data/leitfaden_rechte.json";
 import jobMenue from "../data/leitfaden_jobMenue.json";
 import oTablet from "../data/leitfaden_oTablet.json";
 
-export default function Learning() {
+export default function Leitfaden() {
   const chapters = [allgemeineRegeln, rechte, jobMenue, oTablet];
 
   const scrollTo = (id) => {

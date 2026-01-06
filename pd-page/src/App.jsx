@@ -1,13 +1,15 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
-import Learning from "./pages/Leitfaden";
+import Leitfaden from "./pages/Leitfaden";
 import FunkCodes from "./pages/FunkCodes";
 import FunkCodesLearn from "./pages/FunkCodesLearn";
 import Kleiderordnung from "./pages/Kleiderordnung";
 import Dienstgrade from "./pages/Dienstgrade";
 import PolizeiReglement from "./pages/PolizeiReglement";
 import ScrollToTop from "./components/ScrollToTop";
+import Ausruestung from "./pages/Ausruestung";
+import Fraktionen from "./pages/Fraktionen";
 
 export default function App() {
   return (
@@ -18,12 +20,14 @@ export default function App() {
         <main className="mx-auto max-w-5xl px-4 py-8">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/learning" element={<Learning />} />
-            <Route path="/learning/funk-codes" element={<FunkCodes />} />
-            <Route path="/learning/funk-codes/lernen" element={<FunkCodesLearn />} />
-            <Route path="/kleiderordnung" element={<Kleiderordnung />} />
-            <Route path="/dienstgrade" element={<Dienstgrade />} />
-            <Route path="/reglement" element={<PolizeiReglement />} />
+            <Route path="/leitfaden" element={<Leitfaden />} />
+            <Route path="/leitfaden/funk-codes" element={<FunkCodes />} />
+            <Route path="/leitfaden/funk-codes/lernen" element={<FunkCodesLearn />} />
+            <Route path="/leitfaden/kleiderordnung" element={<Kleiderordnung />} />
+            <Route path="/leitfaden/dienstgrade" element={<Dienstgrade />} />
+            <Route path="/leitfaden/reglement" element={<PolizeiReglement />} />
+            <Route path="/leitfaden/ausrüstung" element={<Ausruestung />} />
+            <Route path="/fraktionen" element={<Fraktionen />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

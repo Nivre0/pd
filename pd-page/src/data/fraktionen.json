@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Azura",
+        "farbe": "Schwarz",
+        "status": "Terrorstatus"
+    },
+    {
+        "name": "Asiret",
+        "farbe": "",
+        "status": "Positiv"
+    },
+    {
+        "name": "Phantom",
+        "farbe": "",
+        "status": "Beobachtung"
+    },
+    {
+        "name": "LostMC",
+        "farbe": "Weiss",
+        "status": "Neutral"
+    },
+    {
+        "name": "Tenshis",
+        "farbe": "",
+        "status": "Neutral"
+    }
+]

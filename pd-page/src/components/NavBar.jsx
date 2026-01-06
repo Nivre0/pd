@@ -36,10 +36,20 @@ export default function NavBar() {
             Home
           </NavLink>
 
+          <NavLink
+            to="/fraktionen"
+            end
+            className={({ isActive }) =>
+              `${linkBase} ${isActive ? active : inactive}`
+            }
+          >
+            Fraktionen
+          </NavLink>
+
           {/* Leitfaden Dropdown */}
           <div className="relative group">
             <NavLink
-              to="/learning"
+              to="/leitfaden"
               className={({ isActive }) =>
                 `${linkBase} ${isActive ? active : inactive}`
               }
@@ -51,7 +61,7 @@ export default function NavBar() {
             <div className="absolute right-0 mt-2 hidden min-w-[180px] rounded-2xl border border-white/10 bg-primary shadow-lg group-hover:block">
               <div className="p-2">
                 <Link
-                  to="/reglement"
+                  to="/leitfaden/reglement"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
                 >
                   Polizei Reglement
@@ -60,7 +70,7 @@ export default function NavBar() {
 
               <div className="p-2">
                 <Link
-                  to="/kleiderordnung"
+                  to="/leitfaden/kleiderordnung"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
                 >
                   Kleiderordnung
@@ -69,7 +79,7 @@ export default function NavBar() {
 
               <div className="p-2">
                 <Link
-                  to="/dienstgrade"
+                  to="/leitfaden/dienstgrade"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
                 >
                   Dienstgrade
@@ -78,10 +88,19 @@ export default function NavBar() {
 
               <div className="p-2">
                 <Link
-                  to="/learning/funk-codes"
+                  to="/leitfaden/funk-codes"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
                 >
                   Funk Codes
+                </Link>
+              </div>
+
+              <div className="p-2">
+                <Link
+                  to="/leitfaden/ausrüstung"
+                  className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
+                >
+                  Ausrüstung
                 </Link>
               </div>
             </div>

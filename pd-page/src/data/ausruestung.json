@@ -1,0 +1,40 @@
+{
+  "einleitung": "Bevor Sie Ihren Dienst antreten, überprüfen Sie bitte, ob Ihre Dienstausrüstung vollständig ist.",
+  "abschnitte": [
+    {
+      "titel": "Ausrüstung",
+      "punkte": [
+        "4x Westen (min.)",
+        "3x Handschellen (min.)",
+        "1x Handschellenschlüssel",
+        "2x Schwere Fussfessel (min.)",
+        "1x Seitenschneider",
+        "1x Feldstecher",
+        "1x UV-Lampe",
+        "1x GSR-Kit",
+        "1x Handy",
+        "5-10x Bandagen",
+        "Genug Essen/Trinken"
+      ]
+    },
+    {
+      "titel": "Dienstwaffen",
+      "punkte": [
+        "Tazer",
+        "Schlagstock",
+        "Taschenlampe",
+        "Kampfpistole",
+        "Kampf-PDW (ab Wachmeister)",
+        "Schwere Pistole (ab Wachtmeister)",
+        "Gummischrot-Pumpgun (ab Adjutant)"
+      ]
+    },
+    {
+      "titel": "Im Streifenfahrzeug",
+      "hinweis": "Ausgenommen sind Aspiranten.",
+      "punkte": [
+        "min. 6x Nagelband"
+      ]
+    }
+  ]
+}

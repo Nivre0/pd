@@ -239,7 +239,7 @@ export default function FunkCodesLearn() {
       {/* Bottom Back Button */}
       <div className="flex justify-start pt-2">
         <Link
-          to="/learning/funk-codes"
+          to="/leitfaden/funk-codes"
           className="rounded-2xl border border-white/15 bg-white/5 px-5 py-3 text-white/90 hover:bg-white/10 transition"
         >
           ← Zurück zu Funk Codes

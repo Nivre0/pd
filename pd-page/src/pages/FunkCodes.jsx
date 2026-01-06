@@ -35,7 +35,7 @@ export default function FunkCodes() {
       {/* Button LINKS */}
       <div className="flex justify-start">
         <Link
-          to="/learning/funk-codes/lernen"
+          to="/leitfaden/funk-codes/lernen"
           className="inline-flex items-center justify-center rounded-2xl border border-accent bg-accent/15 px-5 py-3 font-semibold text-accentText hover:bg-accent/25 transition"
         >
           Funk Codes lernen
