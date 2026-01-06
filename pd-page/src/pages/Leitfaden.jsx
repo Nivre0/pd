@@ -2,9 +2,10 @@ import allgemeineRegeln from "../data/leitfaden_allgemeineRegeln.json";
 import rechte from "../data/leitfaden_rechte.json";
 import jobMenue from "../data/leitfaden_jobMenue.json";
 import oTablet from "../data/leitfaden_oTablet.json";
+import funkdisziplin from "../data/leitfaden_funkdisziplin.json"
 
 export default function Leitfaden() {
-  const chapters = [allgemeineRegeln, rechte, jobMenue, oTablet];
+  const chapters = [allgemeineRegeln, rechte, jobMenue, oTablet, funkdisziplin];
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);
@@ -109,6 +110,21 @@ export default function Leitfaden() {
 
           <ul className="mt-4 list-disc space-y-3 pl-6 text-white/85">
             {oTablet.punkte.map((p, idx) => (
+              <li key={idx}>{p}</li>
+            ))}
+          </ul>
+        </article>
+
+        {/* Funkdisziplin */}
+        <article
+          id={funkdisziplin.id}
+          className="scroll-mt-28 rounded-2xl border border-white/10 bg-white/5 p-6"
+        >
+          <h2 className="text-2xl font-bold text-white">Funkdisziplin</h2>
+          <p className="text-white/90 leading-relaxed">{funkdisziplin.einleitung}</p>
+
+          <ul className="mt-4 list-disc space-y-3 pl-6 text-white/85">
+            {funkdisziplin.punkte.map((p, idx) => (
               <li key={idx}>{p}</li>
             ))}
           </ul>
