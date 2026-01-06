@@ -66,6 +66,16 @@ export default function NavBar() {
                   Kleiderordnung
                 </Link>
               </div>
+
+              <div className="p-2">
+                <Link
+                  to="/dienstgrade"
+                  className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
+                >
+                  Dienstgrade
+                </Link>
+              </div>
+
             </div>
           </div>
         </nav>

@@ -1,0 +1,86 @@
+[
+  {
+    "rang": "Aspirant",
+    "beschreibung": "Neuling. Ist in Ausbildung und das höchste Ziel ist, von erfahrenen Polizisten zu lernen, um die Polizeiprüfung zu bestehen.",
+    "lohn": "CHF 7’000.-",
+    "fahrzeuge": "BF (Motorrad: Nicht alleine!)",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole"
+  },
+  {
+    "rang": "Polizist",
+    "beschreibung": "Ausgelernter Polizist. Darf Dienstfahrzeuge kaufen und damit selbständig auf Streife fahren.",
+    "lohn": "CHF 9’000.-",
+    "fahrzeuge": "Prison-Van, Interceptor",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole"
+  },
+  {
+    "rang": "Gefreiter",
+    "beschreibung": "Erfahrener Polizist. Ist bereits gekonnt in der alltäglichen Polizeiarbeit.",
+    "lohn": "CHF 10’000.-",
+    "fahrzeuge": "Prison-Van, Interceptor",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole, Kampf PDW"
+  },
+  {
+    "rang": "Korporal",
+    "beschreibung": "Motivierter Beamter mit Verantwortung, da berechtigt, einer Abteilung beizutreten (Ausbildner, KriPo, Diamant) oder die Flugausbildung zu absolvieren.",
+    "lohn": "CHF 11’000.-",
+    "fahrzeuge": "Prison-Van, Interceptor",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole, Kampf PDW"
+  },
+  {
+    "rang": "Wachtmeister",
+    "beschreibung": "Sehr erfahrener Polizist. Hat viel Verantwortung, da er die Kampf-PDW zur Dienstausrüstung dazu erhält.",
+    "lohn": "CHF 12’000.-",
+    "fahrzeuge": "Prison-Van, Interceptor, Jeep, Ford-SUV",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole, Kampf PDW, Schwere Pistole"
+  },
+  {
+    "rang": "Feldweibel",
+    "beschreibung": "Polizist mit Führungsfähigkeiten. Sollte die Polizisten unter sich an die Hand nehmen und ein gutes Vorbild sein.",
+    "lohn": "CHF 13’000.-",
+    "fahrzeuge": "Prison-Van, Interceptor, Jeep, Ford-SUV",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole, Kampf PDW, Schwere Pistole"
+  },
+  {
+    "rang": "Adjutant",
+    "beschreibung": "Polizist mit Autorität und Entscheidungsmacht im Einsatz, da er Stürmungen auf Routen genehmigen oder ablehnen darf.",
+    "lohn": "CHF 14’000.-",
+    "fahrzeuge": "Prison-Van, Interceptor, Jeep, Ford-SUV",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole, Kampf PDW, Bean-Bag Schrotflinte, Schwere Pistole"
+  },
+  {
+    "rang": "Leutnant",
+    "beschreibung": "Hochrangige Person mit starken Führungsinteressen. Muss ein sehr vorbildlicher Polizist für die Beamten unter sich sein und darf sich wenige Fehler erlauben.",
+    "lohn": "CHF 15’000.-",
+    "fahrzeuge": "Prison-Van, Interceptor, Jeep, Ford-SUV",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole, Kampf PDW, Bean-Bag Schrotflinte, Schwere Pistole"
+  },
+  {
+    "rang": "Hauptmann",
+    "beschreibung": "Polizist mit sehr starken Führungsqualitäten. Ist nach der Leitungsebene der Höchstrangige und somit oft für wichtige Entscheidungen verantwortlich.",
+    "lohn": "CHF 16’000.-",
+    "fahrzeuge": "Prison-Van, Interceptor, Jeep, Ford-SUV",
+    "ausruestung": "Tazer, Schlagstock, Taschenlampe, Kampfpistole, Kampf PDW, Bean-Bag Schrotflinte, Schwere Pistole"
+  },
+  {
+    "rang": "Fachoffizier",
+    "beschreibung": "Autoritäre Person der Leitungsebene. Führt Neuankömmlinge ein, stellt Waffenscheine aus, bearbeitet Beschwerden und arbeitet direkt mit dem Kommando zusammen. Darf Razzien/Stürmungen genehmigen.",
+    "lohn": "CHF 18’000.-",
+    "fahrzeuge": "ALLE Fahrzeuge",
+    "ausruestung": "ALLE Waffen"
+  },
+  {
+    "rang": "Stv. Kommandant",
+    "beschreibung": "Überprüft die Aktivitäten der Fachoffiziere und ist die rechte Hand des Kommandanten. Darf Razzien genehmigen.",
+    "lohn": "CHF 19’000.-",
+    "fahrzeuge": "ALLE Fahrzeuge",
+    "ausruestung": "ALLE Waffen"
+  },
+  {
+    "rang": "Kommandant",
+    "beschreibung": "Oberste Führungskraft der Polizei. Verantwortlich für Leitung, Vertretung und Entscheidungen des gesamten Polizeikorps.",
+    "lohn": "CHF 20’000.-",
+    "fahrzeuge": "ALLE Fahrzeuge",
+    "ausruestung": "ALLE Waffen"
+  }
+]
