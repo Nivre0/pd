@@ -5,7 +5,7 @@ import oTablet from "../data/leitfaden_oTablet.json";
 import funkdisziplin from "../data/leitfaden_funkdisziplin.json"
 
 export default function Leitfaden() {
-  const chapters = [allgemeineRegeln, rechte, jobMenue, oTablet, funkdisziplin];
+  const chapters = [allgemeineRegeln, rechte, jobMenue, oTablet, funkdisziplin, {"id": "impound", "titel": "Fahrzeug abschleppen"}];
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);
@@ -129,7 +129,44 @@ export default function Leitfaden() {
             ))}
           </ul>
         </article>
+
+        {/* Fahrzeug abschleppen */}
+        <article
+          id="impound"
+          className="scroll-mt-28 rounded-2xl border border-white/10 bg-white/5 p-6"
+        >
+          <h2 className="text-2xl font-bold text-white">Fahrzeug abschleppen</h2>
+          <p className="text-white/90 leading-relaxed">/impound</p>
+          <p className="text-white/90 leading-relaxed">Grund angeben</p>
+          <p className="text-white/90 leading-relaxed">Besitzer muss das Fahrzeug selber zurückholen können! (Feld ankreuzen)</p>
+          <p className="text-white/90 leading-relaxed">Zeit, je nach Verbrechen 1 bis max. 4 Stunden.</p>
+          <p className="text-white/90 leading-relaxed">Kosten, je nach Delikt:</p>
+          <ul className="mt-4 list-disc space-y-3 pl-6 text-white/85">
+            <li>Verstösse (max. 5'000.-)</li>
+            <li>Ordnungswidrigkeiten (max. 8'000.-)</li>
+            <li>Verbrechen (max. 15'000.-)</li>
+          </ul>
+          <br></br>
+          <p className="text-white/90 leading-relaxed">Kofferaum durchsuchen ab:</p>
+          <p className="text-white/90 leading-relaxed">Ordnungswidrigkeiten WGB/BtmG</p>
+          <p className="text-white/90 leading-relaxed">Verbrechen StGB</p>
+          <p className="text-white/90 leading-relaxed">Nie: SVG</p>
+        </article>
+
       </section>
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
