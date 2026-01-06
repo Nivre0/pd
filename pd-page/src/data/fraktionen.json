@@ -2,7 +2,7 @@
     {
         "name": "Azura",
         "farbe": "Schwarz",
-        "leader": "",
+        "leader": "Jamal Weezy",
         "status": "Terrorstatus"
     },
     {
@@ -12,19 +12,25 @@
         "status": "Positiv"
     },
     {
-        "name": "Phantom",
-        "farbe": "",
-        "leader": "",
-        "status": "Beobachtung"
-    },
-    {
-        "name": "LostMC",
+        "name": "Chapos MC",
         "farbe": "Weiss",
         "leader": "",
         "status": "Neutral"
     },
     {
         "name": "Tenshis",
+        "farbe": "",
+        "leader": "",
+        "status": "Neutral"
+    },
+    {
+        "name": "Kanun",
+        "farbe": "",
+        "leader": "",
+        "status": "Neutral"
+    },
+    {
+        "name": "P9",
         "farbe": "",
         "leader": "",
         "status": "Neutral"
