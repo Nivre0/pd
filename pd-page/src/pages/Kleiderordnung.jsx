@@ -2,6 +2,17 @@ import { useRef, useState } from "react";
 import organigramRanks from "../assets/OrganigramRanks.png";
 import outfits from "../data/kleiderordnungOutfits.json";
 
+function getOutfitImageSrc(imageFileName) {
+  if (!imageFileName) return null;
+
+  // erwartet: Datei liegt in src/assets/
+  try {
+    return new URL(`../assets/${imageFileName}`, import.meta.url).href;
+  } catch {
+    return null;
+  }
+}
+
 export default function Kleiderordnung() {
   const [copiedCode, setCopiedCode] = useState(null);
   const hideTimerRef = useRef(null);
@@ -22,9 +33,7 @@ export default function Kleiderordnung() {
 
     setCopiedCode(code);
 
-    if (hideTimerRef.current) {
-      clearTimeout(hideTimerRef.current);
-    }
+    if (hideTimerRef.current) clearTimeout(hideTimerRef.current);
 
     hideTimerRef.current = setTimeout(() => {
       setCopiedCode(null);
@@ -42,6 +51,7 @@ export default function Kleiderordnung() {
           Im Kleiderladen den Code eingeben. Ihr könnt Dinge wie Kopfbedeckung,
           Brille, usw. selber wählen, es sollte jedoch professionell bleiben.
         </p>
+        <p>Bitte zieht eure Weste im PD aus.</p>
         <p className="text-white/90">
           Passt euer Oberteil gemäss eurem Rang an (siehe Bild unten).
         </p>
@@ -57,6 +67,7 @@ export default function Kleiderordnung() {
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {outfits.map((o) => {
             const disabled = !o.code;
+            const src = getOutfitImageSrc(o.image);
 
             return (
               <button
@@ -66,17 +77,34 @@ export default function Kleiderordnung() {
                 onClick={() => copyToClipboard(o.code)}
                 className={[
                   "text-left rounded-2xl border p-4 transition",
-                  "bg-white/5 border-white/10",
                   disabled
-                    ? "opacity-60 cursor-not-allowed"
-                    : "hover:bg-white/10 hover:border-accent",
+                    ? "opacity-60 cursor-not-allowed border-white/10 bg-white/5"
+                    : "border-white/10 bg-white/5 hover:bg-white/10 hover:border-accent",
                 ].join(" ")}
               >
-                {/* Bild Platzhalter */}
-                <div className="mb-4 flex h-36 items-center justify-center rounded-xl border border-white/10 bg-primary/40">
-                  <span className="text-white/50 text-sm">
-                    Bild Platzhalter
-                  </span>
+                {/* Bild (Hochformat) / Placeholder */}
+                <div className="mb-4 overflow-hidden rounded-xl border border-white/10 bg-primary/40 h-48 flex items-center justify-center">
+                  {src ? (
+                    <img
+                      src={src}
+                      alt={`${o.title} Outfit`}
+                      className="h-full w-full object-contain"
+                      onError={(e) => {
+                        e.currentTarget.style.display = "none";
+                      }}
+                    />
+                  ) : (
+                    <span className="text-white/50 text-sm">
+                      Bild Platzhalter
+                    </span>
+                  )}
+
+                  {/* Falls Bild nicht geladen werden kann, bleibt leer -> placeholder layer */}
+                  {src && (
+                    <span className="pointer-events-none absolute opacity-0">
+                      {/* nur für Layout, keine Funktion */}
+                    </span>
+                  )}
                 </div>
 
                 <div className="flex items-start justify-between gap-3">
@@ -85,9 +113,7 @@ export default function Kleiderordnung() {
                       {o.title}
                     </div>
                     {o.note && (
-                      <div className="mt-1 text-sm text-white/60">
-                        {o.note}
-                      </div>
+                      <div className="mt-1 text-sm text-white/60">{o.note}</div>
                     )}
                   </div>
 

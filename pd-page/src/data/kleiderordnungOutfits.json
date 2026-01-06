@@ -1,25 +1,33 @@
 [
   {
     "title": "Aspirant",
-    "code": "MX2UYS"
+    "code": "MX2UYS",
+    "image": "outfit_aspirant.png"
   },
   {
     "title": "Polizist (Sommer)",
-    "code": "FR11Y3"
+    "code": "FR11Y3",
+    "image": "outfit_polizist_sommer.png"
   },
   {
     "title": "Polizist (Winter)",
-    "code": null,
-    "note": "Kommt noch"
+    "code": "LZ9K2V",
+    "image": "outfit_polizist_winter.png"
   },
   {
     "title": "Motorradstreife",
     "code": null,
-    "note": "Kommt noch"
+    "note": "Kommt noch",
+    "image": null
   },
   {
     "title": "Diamant",
-    "code": null,
-    "note": "Kommt noch"
+    "code": "IDPQDO",
+    "image": "outfit_diamant.png"
+  },
+  {
+    "title": "KRIPO",
+    "code": "UVBMYK",
+    "image": "outfit_kripo.png"
   }
 ]
