@@ -1,0 +1,29 @@
+{
+  "kommandant": {
+    "rang": "Kommandant ",
+    "name": "Milos Djordjevic",
+    "image": "leitung_kommandant.png"
+  },
+  "stvKommandant": {
+    "rang": "Stv. Kommandant",
+    "name": "Steve Rogers",
+    "image": "leitung_stv.png"
+  },
+  "fachoffiziere": [
+    {
+      "rang": "Fachoffizier",
+      "name": "James Higgins",
+      "image": "leitung_fachoffi_1.png"
+    },
+    {
+      "rang": "Fachoffizier",
+      "name": "Steve Black",
+      "image": "leitung_fachoffi_2.png"
+    },
+    {
+      "rang": "Fachoffizier",
+      "name": "Nicht belegt",
+      "image": "leitung_fachoffi_3.png"
+    }
+  ]
+}

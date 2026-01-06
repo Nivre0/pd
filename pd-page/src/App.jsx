@@ -11,6 +11,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Ausruestung from "./pages/Ausruestung";
 import Fraktionen from "./pages/Fraktionen";
 import Commands from "./pages/Commands";
+import Leitung from "./pages/Leitung";
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
             <Route path="/leitfaden/ausrüstung" element={<Ausruestung />} />
             <Route path="/leitfaden/commands" element={<Commands />} />
             <Route path="/fraktionen" element={<Fraktionen />} />
+            <Route path="/leitung" element={<Leitung />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>

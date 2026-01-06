@@ -46,6 +46,16 @@ export default function NavBar() {
             Fraktionen
           </NavLink>
 
+          <NavLink
+            to="/leitung"
+            end
+            className={({ isActive }) =>
+              `${linkBase} ${isActive ? active : inactive}`
+            }
+          >
+            Leitungsebene
+          </NavLink>
+
           {/* Leitfaden Dropdown */}
           <div className="relative group">
             <NavLink
