@@ -22,5 +22,17 @@
   {
     "command": "/pdpacific",
     "beschreibung": "Staatsbank zurücksetzen"
+  },
+  {
+    "command": "/117 [Nachricht]",
+    "beschreibung": "Erstellt einen Dispatch am momentanen"
+  },
+  {
+    "command": "/impound",
+    "beschreibung": "Fahrzeug abschleppen, man muss neben dem Fahrzeug stehen oder darin sitzen."
+  },
+  {
+    "command": "/steal",
+    "beschreibung": "Person durchsuchen, geht nur wenn die Person gefesselt ist und man eine Waffe in der Hand hält."
   }
 ]
