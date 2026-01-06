@@ -1,0 +1,26 @@
+[
+  {
+    "command": "/pd [Grösse]",
+    "beschreibung": "Sperrzone am momentanen Standort erstellen. Grösse ist in Meter, jedoch zählt das letzte symbol der eingabe nicht, heisst 100 Meter sind eigentlich 10 Meter."
+  },
+  {
+    "command": "/pdrm",
+    "beschreibung": "Sperrzone entfernen (Geht von überall)"
+  },
+  {
+    "command": "/pdshoprobbery",
+    "beschreibung": "Ladenraub zurücksetzen"
+  },
+  {
+    "command": "/pdfleeca",
+    "beschreibung": "Fleecaraub zurücksetzen"
+  },
+  {
+    "command": "/pdpaleto",
+    "beschreibung": "Paletoraub zurücksetzen"
+  },
+  {
+    "command": "/pdpacific",
+    "beschreibung": "Staatsbank zurücksetzen"
+  }
+]
