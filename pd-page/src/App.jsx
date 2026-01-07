@@ -1,4 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
+
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import Leitfaden from "./pages/Leitfaden";
@@ -38,6 +40,7 @@ export default function App() {
           </Routes>
         </main>
       </BrowserRouter>
+      <Analytics />
     </div>
   );
 }
