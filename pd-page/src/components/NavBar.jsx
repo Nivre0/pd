@@ -123,6 +123,15 @@ export default function NavBar() {
                 </Link>
               </div>
 
+              <div className="p-2">
+                <Link
+                  to="/leitfaden/ortskenntnis"
+                  className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
+                >
+                  Ortskenntnis
+                </Link>
+              </div>
+
             </div>
           </div>
         </nav>
