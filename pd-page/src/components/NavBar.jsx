@@ -69,7 +69,7 @@ export default function NavBar() {
 
             {/* Dropdown */}
             <div className="absolute right-0 mt-2 hidden min-w-[180px] rounded-2xl border border-white/10 bg-primary shadow-lg group-hover:block">
-              <div className="p-2">
+              <div className="p-2 pt-1 pb-1">
                 <Link
                   to="/leitfaden/reglement"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
@@ -78,7 +78,7 @@ export default function NavBar() {
                 </Link>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 pt-1 pb-1">
                 <Link
                   to="/leitfaden/kleiderordnung"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
@@ -87,7 +87,7 @@ export default function NavBar() {
                 </Link>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 pt-1 pb-1">
                 <Link
                   to="/leitfaden/dienstgrade"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
@@ -96,7 +96,7 @@ export default function NavBar() {
                 </Link>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 pt-1 pb-1">
                 <Link
                   to="/leitfaden/funk-codes"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
@@ -105,7 +105,7 @@ export default function NavBar() {
                 </Link>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 pt-1 pb-1">
                 <Link
                   to="/leitfaden/ausrüstung"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
@@ -114,7 +114,7 @@ export default function NavBar() {
                 </Link>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 pt-1 pb-1">
                 <Link
                   to="/leitfaden/commands"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
@@ -123,7 +123,7 @@ export default function NavBar() {
                 </Link>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 pt-1 pb-1">
                 <Link
                   to="/leitfaden/ortskenntnis"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
