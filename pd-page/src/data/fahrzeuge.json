@@ -1,0 +1,74 @@
+[
+  {
+    "name": "pstranser",
+    "garage": "Gelbe Garage",
+    "rang": "",
+    "sitzplaetze": 4,
+    "kofferraumPlatz": 400,
+    "notiz": "Man kann aus der Seite mit einer PDW rausschiessen.",
+    "image": "fahrzeug_pstranser.png"
+  },
+  {
+    "name": "sent5pd",
+    "garage": "Gelbe Garage",
+    "rang": "",
+    "sitzplaetze": 4,
+    "kofferraumPlatz": 400,
+    "notiz": "",
+    "image": "fahrzeug_sent5pd.png"
+  },
+  {
+    "name": "Dia Auto",
+    "garage": "Blaue Garage",
+    "rang": "DIAMANT",
+    "sitzplaetze": 12,
+    "kofferraumPlatz": 400,
+    "notiz": "Es darf nur ein einziges Dia Auto ausgeparkt sein.",
+    "image": "fahrzeug_Pitbullbb.png"
+  },
+  {
+    "name": "Highspeed Unit",
+    "garage": "Blaue Garage",
+    "rang": "",
+    "sitzplaetze": 2,
+    "kofferraumPlatz": 400,
+    "notiz": "Das schnellste Auto im PD.",
+    "image": "fahrzeug_.png"
+  },
+  {
+    "name": "ll1bb",
+    "garage": "Gelbe Garage",
+    "rang": "",
+    "sitzplaetze": 4,
+    "kofferraumPlatz": 400,
+    "notiz": "",
+    "image": "fahrzeug_ll1bb.png"
+  },
+  {
+    "name": "ll6bb",
+    "garage": "Gelbe Garage",
+    "rang": "",
+    "sitzplaetze": 4,
+    "kofferraumPlatz": 400,
+    "notiz": "",
+    "image": "fahrzeug_ll6bb.png"
+  },
+  {
+    "name": "Gefängistransporter",
+    "garage": "Gelbe Garage",
+    "rang": "",
+    "sitzplaetze": 8,
+    "kofferraumPlatz": 400,
+    "notiz": "Ideal um Verbrecher ins Gefängis zu transportieren.",
+    "image": "fahrzeug_hgrukw.png"
+  },
+  {
+    "name": "Bati",
+    "garage": "Gelbe Garage",
+    "rang": "",
+    "sitzplaetze": 1,
+    "kofferraumPlatz": 0,
+    "notiz": "",
+    "image": "fahrzeug_bati_pd_non.png"
+  }
+]

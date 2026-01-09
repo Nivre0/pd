@@ -14,6 +14,7 @@ import Fraktionen from "./pages/Fraktionen";
 import Commands from "./pages/Commands";
 import Leitung from "./pages/Leitung";
 import Ortskenntnis from "./pages/Ortskenntnis";
+import Fahrzeuge from "./pages/Fahrzeuge";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
             <Route path="/leitfaden/ausrüstung" element={<Ausruestung />} />
             <Route path="/leitfaden/commands" element={<Commands />} />
             <Route path="/leitfaden/ortskenntnis" element={<Ortskenntnis />} />
+            <Route path="/leitfaden/fahrzeuge" element={<Fahrzeuge />} />
             <Route path="/fraktionen" element={<Fraktionen />} />
             <Route path="/leitung" element={<Leitung />} />
             <Route path="*" element={<Navigate to="/" replace />} />
