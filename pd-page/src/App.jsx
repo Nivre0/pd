@@ -15,6 +15,7 @@ import Commands from "./pages/Commands";
 import Leitung from "./pages/Leitung";
 import Ortskenntnis from "./pages/Ortskenntnis";
 import Fahrzeuge from "./pages/Fahrzeuge";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -37,7 +38,7 @@ export default function App() {
             <Route path="/leitfaden/fahrzeuge" element={<Fahrzeuge />} />
             <Route path="/fraktionen" element={<Fraktionen />} />
             <Route path="/leitung" element={<Leitung />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
       </BrowserRouter>
