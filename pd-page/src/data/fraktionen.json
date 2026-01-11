@@ -12,12 +12,6 @@
         "status": "Positiv"
     },
     {
-        "name": "Chapos MC",
-        "farbe": "Weiss",
-        "leader": "",
-        "status": "Neutral"
-    },
-    {
         "name": "Tenshis",
         "farbe": "",
         "leader": "",
@@ -34,5 +28,17 @@
         "farbe": "",
         "leader": "",
         "status": "Neutral"
+    },
+    {
+        "name": "Familiga del Sud",
+        "farbe": "Weiss/Gold",
+        "leader": "",
+        "status": "Beobachtung"
+    },
+    {
+        "name": "Kafkaz",
+        "farbe": "Dunkelgrün",
+        "leader": "",
+        "status": "Beobachtung"
     }
 ]
