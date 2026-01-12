@@ -21,7 +21,7 @@
         "name": "Kanun",
         "farbe": "Rot",
         "leader": "",
-        "status": "Neutral"
+        "status": "Positiv"
     },
     {
         "name": "P9",
@@ -39,6 +39,18 @@
         "name": "Kafkaz",
         "farbe": "Dunkelgrün",
         "leader": "",
-        "status": "Beobachtung"
+        "status": "Neutral"
+    },
+    {
+        "name": "Phantom",
+        "farbe": "",
+        "leader": "",
+        "status": "Neutral"
+    },
+    {
+        "name": "Omerta",
+        "farbe": "",
+        "leader": "",
+        "status": "Neutral"
     }
 ]
