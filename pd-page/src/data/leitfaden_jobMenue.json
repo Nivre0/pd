@@ -3,7 +3,7 @@
   "titel": "Job-Menü (Exklusive Funktionen)",
   "punkte": [
     {
-      "titel": "Rechnung usstelle",
+      "titel": "Rechnung ausstellen",
       "details": [
         "Person auswählen, Busse in CHF angeben, Grund nennen",
         "Wichtig: \"Firma bechunnds Geld\" (sonst Korruption)",
@@ -11,13 +11,13 @@
       ]
     },
     {
-      "titel": "Fahrzüg ufbreche",
+      "titel": "Fahrzeug aufbrechen",
       "details": [
         "Aufbrechen eines geschlossenen Fahrzeugs (dauert ca. 10s, nachher einmal einsteigen)"
       ]
     },
     {
-      "titel": "Lizenze überprüfe",
+      "titel": "Lizenzen überprüfen",
       "details": [
         "Überprüfung der Lizenzen einer Person (Erstellen nicht erlaubt!)"
       ]
