@@ -2,16 +2,28 @@ import allgemeineRegeln from "../data/leitfaden_allgemeineRegeln.json";
 import rechte from "../data/leitfaden_rechte.json";
 import jobMenue from "../data/leitfaden_jobMenue.json";
 import oTablet from "../data/leitfaden_oTablet.json";
-import funkdisziplin from "../data/leitfaden_funkdisziplin.json"
+import funkdisziplin from "../data/leitfaden_funkdisziplin.json";
+import sperrzone from "../data/leitfaden_sperrzone.json";
+import { useNavigate } from "react-router-dom";
 
 export default function Leitfaden() {
-  const chapters = [allgemeineRegeln, rechte, jobMenue, oTablet, funkdisziplin, {"id": "impound", "titel": "Fahrzeug abschleppen"}];
+  const chapters = [
+    allgemeineRegeln,
+    rechte,
+    jobMenue,
+    oTablet,
+    funkdisziplin,
+    { id: "impound", titel: "Fahrzeug abschleppen" },
+    sperrzone,
+  ];
 
   const scrollTo = (id) => {
     const el = document.getElementById(id);
     if (!el) return;
     el.scrollIntoView({ behavior: "smooth", block: "start" });
   };
+
+  const navigate = useNavigate();
 
   return (
     <div className="grid gap-6 lg:grid-cols-[260px_1fr]">
@@ -77,9 +89,7 @@ export default function Leitfaden() {
           id={jobMenue.id}
           className="scroll-mt-28 rounded-2xl border border-white/10 bg-white/5 p-6"
         >
-          <h2 className="text-2xl font-bold text-white">
-            {jobMenue.titel}
-          </h2>
+          <h2 className="text-2xl font-bold text-white">{jobMenue.titel}</h2>
 
           <div className="mt-4 space-y-4">
             {jobMenue.punkte.map((punkt, idx) => (
@@ -121,7 +131,9 @@ export default function Leitfaden() {
           className="scroll-mt-28 rounded-2xl border border-white/10 bg-white/5 p-6"
         >
           <h2 className="text-2xl font-bold text-white">Funkdisziplin</h2>
-          <p className="text-white/90 leading-relaxed">{funkdisziplin.einleitung}</p>
+          <p className="text-white/90 leading-relaxed">
+            {funkdisziplin.einleitung}
+          </p>
 
           <ul className="mt-4 list-disc space-y-3 pl-6 text-white/85">
             {funkdisziplin.punkte.map((p, idx) => (
@@ -135,38 +147,75 @@ export default function Leitfaden() {
           id="impound"
           className="scroll-mt-28 rounded-2xl border border-white/10 bg-white/5 p-6"
         >
-          <h2 className="text-2xl font-bold text-white">Fahrzeug abschleppen</h2>
-          <p className="text-white/90 leading-relaxed">/impound</p>
+          <h2 className="text-2xl font-bold text-white">
+            Fahrzeug abschleppen
+          </h2>
+          <button
+            type="button"
+            onClick={() => navigate("/leitfaden/commands")}
+            className="mt-5 inline-flex items-center rounded-2xl border border-accent bg-accent/15 px-6 py-3 font-semibold text-accentText hover:bg-accent/25 transition"
+          >
+            Wie schleppte ich ein Fahrzeug ab?
+          </button>
           <p className="text-white/90 leading-relaxed">Grund angeben</p>
-          <p className="text-white/90 leading-relaxed">Besitzer muss das Fahrzeug selber zurückholen können! (Feld ankreuzen)</p>
-          <p className="text-white/90 leading-relaxed">Zeit, je nach Verbrechen 1 bis max. 4 Stunden.</p>
+          <p className="text-white/90 leading-relaxed">
+            Besitzer muss das Fahrzeug selber zurückholen können! (Feld
+            ankreuzen)
+          </p>
+          <p className="text-white/90 leading-relaxed">
+            Zeit, je nach Verbrechen 1 bis max. 4 Stunden.
+          </p>
           <p className="text-white/90 leading-relaxed">Kosten, je nach Delikt:</p>
           <ul className="mt-4 list-disc space-y-3 pl-6 text-white/85">
             <li>Verstösse (max. 5'000.-)</li>
             <li>Ordnungswidrigkeiten (max. 8'000.-)</li>
             <li>Verbrechen (max. 15'000.-)</li>
           </ul>
-          <br></br>
-          <p className="text-white/90 leading-relaxed">Kofferaum durchsuchen ab:</p>
-          <p className="text-white/90 leading-relaxed">Ordnungswidrigkeiten WGB/BtmG</p>
+          <br />
+          <p className="text-white/90 leading-relaxed">
+            Kofferaum durchsuchen ab:
+          </p>
+          <p className="text-white/90 leading-relaxed">
+            Ordnungswidrigkeiten WGB/BtmG
+          </p>
           <p className="text-white/90 leading-relaxed">Verbrechen StGB</p>
           <p className="text-white/90 leading-relaxed">Nie: SVG</p>
         </article>
 
+        {/* Sperrzone */}
+        <article
+          id={sperrzone.id}
+          className="scroll-mt-28 rounded-2xl border border-white/10 bg-white/5 p-6"
+        >
+          <h2 className="text-2xl font-bold text-white">{sperrzone.titel}</h2>
+
+          <p className="mt-2 text-white/90 leading-relaxed">
+            {sperrzone.einleitung}
+          </p>
+
+          <ul className="mt-4 list-disc space-y-2 pl-6 text-white/85">
+            {sperrzone.bedingungen.map((b, idx) => (
+              <li key={idx}>{b}</li>
+            ))}
+          </ul>
+
+          <p className="mt-4 text-white/90 leading-relaxed">
+            {sperrzone.beschreibung}
+          </p>
+
+          <button
+            type="button"
+            onClick={() => navigate("/leitfaden/commands")}
+            className="mt-5 inline-flex items-center rounded-2xl border border-accent bg-accent/15 px-6 py-3 font-semibold text-accentText hover:bg-accent/25 transition"
+          >
+            Wie erstelle ich eine Sperrzone?
+          </button>
+
+          <p className="mt-5 text-white/90 leading-relaxed">
+            {sperrzone.vorgehenText}
+          </p>
+        </article>
       </section>
     </div>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

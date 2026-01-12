@@ -1,0 +1,18 @@
+{
+  "id": "sperrzone",
+  "titel": "Sperrzone",
+  "einleitung": "Sperrzonen können jederzeit von Ihnen ausgerufen werden, wenn die unten aufgezählten Bedingungen erfüllt sind:",
+  "bedingungen": [
+    "Geiselnahme / Raubüberfall",
+    "Beamte in Gefahr",
+    "Schusswechsel (11-99)",
+    "Störung des Einsatzes",
+    "Stürmung"
+  ],
+  "beschreibung": "Die Sperrzone signalisiert den Bürger/innen, dass im Bereich der ausgerufenen Sperrzone eine Massnahme stattfindet und diese somit nicht zu betreten ist.",
+  "commands": [
+    { "label": "Sperrzone erstellen", "value": "/pd [Grösse]" },
+    { "label": "Sperrzone entfernen", "value": "/pdrm" }
+  ],
+  "vorgehenText": "Wird die Sperrzone von unerlaubten Personen betreten, warnen die Beamten die Person, die Sperrzone unverzüglich zu verlassen. Wird dem nicht Folge geleistet, nehmen die Beamten die Person nach Möglichkeit fest (Busse) oder geben einen Warnschuss (absichtlich daneben) in Richtung der Person ab. Befindet sich die Person in einem Fahrzeug und fährt immer wieder in die Sperrzone, darf das Feuer auf die Reifen und die Karosserie (nicht die Person!) eröffnet werden. Wenn die Person durch die Sperrzone rast und somit akut Beamte gefährdet, darf auf die Person geschossen werden, das Erschiessen sollte aber wie immer die letzte Massnahme bleiben."
+}
