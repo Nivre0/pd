@@ -37,6 +37,31 @@ export default function Ausruestung() {
           </section>
         ))}
       </div>
+      {/* Info-Kacheln */}
+        {ausruestung.kacheln && (
+          <div className="pt-4 space-y-4">
+            <h2 className="text-2xl font-bold text-accentText">
+              Legende
+            </h2>
+
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {ausruestung.kacheln.map((k, idx) => (
+                <div
+                  key={idx}
+                  className="rounded-2xl border border-white/10 bg-white/5 p-5"
+                >
+                  <div className="text-lg font-semibold text-white">
+                    {k.titel}
+                  </div>
+                  <p className="mt-2 text-white/80 leading-relaxed">
+                    {k.beschreibung}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
     </div>
   );
 }

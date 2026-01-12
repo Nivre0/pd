@@ -12,7 +12,7 @@
         "1x UV-Lampe",
         "1x GSR-Kit",
         "1x Handy",
-        "5-10x Bandagen",
+        "5–10x Bandagen",
         "Genug Essen/Trinken"
       ]
     },
@@ -21,9 +21,9 @@
       "punkte": [
         "Tazer",
         "Schlagstock",
-        "Taschenlampe",
+        "Taschenlampe (Alle alten Beweise gelöscht!)",
         "Kampfpistole",
-        "Kampf-PDW (ab Wachmeister)",
+        "Kampf-PDW (ab Gefreiter)",
         "Schwere Pistole (ab Wachtmeister)",
         "Gummischrot-Pumpgun (ab Adjutant)"
       ]
@@ -34,6 +34,25 @@
       "punkte": [
         "min. 6x Nagelband"
       ]
+    }
+  ],
+
+  "kacheln": [
+    {
+      "titel": "UV-Lampe",
+      "beschreibung": "Zum Sicherstellen von Fingerabdrücken aus Fahrzeugen (Fahrzeuglenker und Beifahrer), spätere Analyse der Beweise im Labor nötig (wiederverwendbar). Funktionsweise: Auf den Sitz im Fahrzeug setzten und die UV-Taschenlampe \"brauchen\""
+    },
+    {
+      "titel": "GSR-Kit",
+      "beschreibung": "Zum Sicherstellen von Schmauchspuren (Schiesspulverspuren) an der Händen und Kleidern eines TV, Analyse erfolgt vor Ort (wiederverwendbar). Funktionsweise: Vor TV stellen \"brauchen\""
+    },
+    {
+      "titel": "Taschenlampe",
+      "beschreibung": "Zum Sicherstellen von Beweisen auf dem Boden (Patronenhülsen, Blut), spätere Analyse der Beweise im Labor nötig  (wiederverwendbar). Funktionsweise: Vor Ort im Waffenrad die Taschenlampe auswählen und auf den Boden leuchten, anschliessend Beweise mit E aufheben."
+    },
+    {
+      "titel": "Fingerabdrucksensor",
+      "beschreibung": "Feststellen der Identität und allfällige (automatische) Aufnahme der Fingerabdrücke ins PD. Funktionsweise: Vor TV stellen und \"brauchen\""
     }
   ]
 }
