@@ -25,7 +25,7 @@
   },
   {
     "command": "/117 [Nachricht]",
-    "beschreibung": "Erstellt einen Dispatch am momentanen"
+    "beschreibung": "Erstellt einen Dispatch am momentanen Standort."
   },
   {
     "command": "/impound",
@@ -34,5 +34,13 @@
   {
     "command": "/steal",
     "beschreibung": "Person durchsuchen, geht nur wenn die Person gefesselt ist und man eine Waffe in der Hand hält."
+  },
+  {
+    "command": "bind keyboard [taste] \"[command]\"",
+    "beschreibung": "FUNKTIONIERT NUR IM F8 UND ES BRAUCHT KEIN /. Keybinds für Commands erstellen."
+  },
+  {
+    "command": "unbind keyboard [taste]",
+    "beschreibung": "FUNKTIONIERT NUR IM F8 UND ES BRAUCHT KEIN /. Keybinds für Commands löschen."
   }
 ]
