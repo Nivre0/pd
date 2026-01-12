@@ -16,6 +16,7 @@ import Leitung from "./pages/Leitung";
 import Ortskenntnis from "./pages/Ortskenntnis";
 import Fahrzeuge from "./pages/Fahrzeuge";
 import NotFound from "./pages/NotFound";
+import Kripo from "./pages/Kripo";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
             <Route path="/leitfaden/commands" element={<Commands />} />
             <Route path="/leitfaden/ortskenntnis" element={<Ortskenntnis />} />
             <Route path="/leitfaden/fahrzeuge" element={<Fahrzeuge />} />
+            <Route path="/leitfaden/kripo" element={<Kripo />} />
             <Route path="/fraktionen" element={<Fraktionen />} />
             <Route path="/leitung" element={<Leitung />} />
             <Route path="*" element={<NotFound />} />

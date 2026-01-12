@@ -1,0 +1,15 @@
+{
+  "titel": "KRIPO",
+  "einleitung": "Die KRIPO ist eine spezielle Abteilung im PD welche folgende Aufgaben verfolgt:",
+  "aufgaben": [
+    "Beweisbeschaffung nach einem Einsatz, Nr. Schilder scannen, Fingerabdrücke nehmen, Personen identifizieren, Beweise suchen.",
+    "Haftbefehle untersuchen und diese Leute festnehmen.",
+    "Der KRIPO ist es erlaubt under cover zu fahren und so Leute in eine Falle zu locken.",
+    "Beweise gegen Fraktionen für eine Staatliche Razzia sammeln."
+  ],
+  "bedingungen": [
+    "Der Eintritt in die KRIPO ist erst ab dem Dienstgrad Wachtmeister möglich, es können jedoch Ausnahmen gemacht werden.",
+    "Ein KRIPO Beamter darf die gleichen Waffen mit sich tragen, wie ein Wachtmeister.",
+    "Ein KRIPO Kommissar darf die gleichen Waffen mit sich tragen, wie ein Adjutant."
+  ]
+}
