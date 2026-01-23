@@ -1,15 +1,9 @@
 [
     {
-        "name": "Azura",
-        "farbe": "Schwarz",
-        "leader": "Jamal Weezy",
-        "status": "Neutral"
-    },
-    {
         "name": "Asiret",
         "farbe": "",
         "leader": "",
-        "status": "Positiv"
+        "status": "Neutral"
     },
     {
         "name": "Tenshis",
@@ -21,7 +15,7 @@
         "name": "Kanun",
         "farbe": "Rot",
         "leader": "",
-        "status": "Positiv"
+        "status": "Beobachtung"
     },
     {
         "name": "P9",
