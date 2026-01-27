@@ -110,7 +110,7 @@ export default function NavBar() {
                   to="/leitfaden/ausruestung"
                   className="block rounded-xl px-3 py-2 text-white/90 hover:bg-white/5 hover:text-white transition"
                 >
-                  Ausruestung
+                  Ausrüstung
                 </Link>
               </div>
 
