@@ -1,13 +1,17 @@
 import fraktionen from "../data/fraktionen.json";
 
 export default function Fraktionen() {
+  const sortedFraktionen = [...fraktionen].sort((a, b) =>
+    a.name.localeCompare(b.name, "de", { sensitivity: "base" })
+  );
+
   return (
     <div className="space-y-6">
       <h1 className="text-4xl font-bold text-accentText">Fraktionen</h1>
 
       {/* Liste */}
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {fraktionen.map((f, idx) => {
+        {sortedFraktionen.map((f, idx) => {
           const isTerror = f.status === "Terrorstatus";
 
           return (
