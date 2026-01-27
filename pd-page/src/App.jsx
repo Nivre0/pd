@@ -33,7 +33,7 @@ export default function App() {
             <Route path="/leitfaden/kleiderordnung" element={<Kleiderordnung />} />
             <Route path="/leitfaden/dienstgrade" element={<Dienstgrade />} />
             <Route path="/leitfaden/reglement" element={<PolizeiReglement />} />
-            <Route path="/leitfaden/ausrüstung" element={<Ausruestung />} />
+            <Route path="/leitfaden/ausruestung" element={<Ausruestung />} />
             <Route path="/leitfaden/commands" element={<Commands />} />
             <Route path="/leitfaden/ortskenntnis" element={<Ortskenntnis />} />
             <Route path="/leitfaden/fahrzeuge" element={<Fahrzeuge />} />
