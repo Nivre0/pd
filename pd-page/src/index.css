@@ -5,4 +5,6 @@
 /* optional: nicer default */
 html, body {
   height: 100%;
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
 }
