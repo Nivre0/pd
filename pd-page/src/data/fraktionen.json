@@ -1,11 +1,5 @@
 [
     {
-        "name": "Asiret",
-        "farbe": "",
-        "leader": "",
-        "status": "Neutral"
-    },
-    {
         "name": "Tenshis",
         "farbe": "",
         "leader": "",
@@ -15,19 +9,19 @@
         "name": "Kanun",
         "farbe": "Rot",
         "leader": "",
-        "status": "Beobachtung"
+        "status": "Bearbeitung"
     },
     {
         "name": "P9",
-        "farbe": "",
+        "farbe": "Schwarz",
         "leader": "",
         "status": "Beobachtung"
     },
     {
-        "name": "Familiga del Sud",
+        "name": "Familiga Del Sud",
         "farbe": "Weiss/Gold",
         "leader": "",
-        "status": "Beobachtung"
+        "status": "Neutral"
     },
     {
         "name": "Kafkaz",
@@ -36,14 +30,20 @@
         "status": "Neutral"
     },
     {
-        "name": "Phantom",
-        "farbe": "",
+        "name": "La Muerta",
+        "farbe": "Schwarz/Türkis",
         "leader": "",
         "status": "Neutral"
     },
     {
-        "name": "Omerta",
-        "farbe": "",
+        "name": "Azul",
+        "farbe": "Dunkelblau",
+        "leader": "",
+        "status": "Neutral"
+    },
+    {
+        "name": "Milieu",
+        "farbe": "Weiss/Hellblau",
         "leader": "",
         "status": "Neutral"
     }
