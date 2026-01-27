@@ -1,0 +1,37 @@
+[
+  {
+    "rang": "KRIPO Anwärter",
+    "beschreibung": "Neuling in der KRIPO. Unterstützt bei Ermittlungen und Beweisaufnahme unter Anleitung.",
+    "lohn": "—",
+    "ausruestung": "Wie Wachtmeister (gemäss Regelung)",
+    "fahrzeuge": "—"
+  },
+  {
+    "rang": "KRIPO Beamter",
+    "beschreibung": "Durchführt Ermittlungen, Beweisaufnahme, Identifikation und unterstützt bei Festnahmen.",
+    "lohn": "—",
+    "ausruestung": "Wie Wachtmeister (gemäss Regelung)",
+    "fahrzeuge": "—"
+  },
+  {
+    "rang": "KRIPO Komissar",
+    "beschreibung": "Leitet Ermittlungen, koordiniert Einsätze und priorisiert Fälle.",
+    "lohn": "—",
+    "ausruestung": "Wie Adjutant (gemäss Regelung)",
+    "fahrzeuge": "—"
+  },
+  {
+    "rang": "KRIPO Stv. Generalinspektor",
+    "beschreibung": "Stellvertretende Leitung der KRIPO. Verantwortlich für Abläufe, Qualität und Eskalationen.",
+    "lohn": "—",
+    "ausruestung": "—",
+    "fahrzeuge": "—"
+  },
+  {
+    "rang": "KRIPO Generalinspektor",
+    "beschreibung": "Leitung der KRIPO. Verantwortlich für Strategie, Einsatzfreigaben und grosse Ermittlungen.",
+    "lohn": "—",
+    "ausruestung": "—",
+    "fahrzeuge": "—"
+  }
+]
