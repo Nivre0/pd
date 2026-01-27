@@ -1,35 +1,35 @@
 [
   {
     "rang": "KRIPO Anwärter",
-    "beschreibung": "Neuling in der KRIPO. Unterstützt bei Ermittlungen und Beweisaufnahme unter Anleitung.",
+    "beschreibung": "Neuling in der KRIPO. Unterstützt bei Ermittlungen und Beweisaufnahme unter Anleitung. Ist auf dem gleichen Level wie ein Korporal.",
     "lohn": "—",
     "ausruestung": "Wie Wachtmeister (gemäss Regelung)",
     "fahrzeuge": "—"
   },
   {
     "rang": "KRIPO Beamter",
-    "beschreibung": "Durchführt Ermittlungen, Beweisaufnahme, Identifikation und unterstützt bei Festnahmen.",
+    "beschreibung": "Durchführt Ermittlungen, Beweisaufnahme, Identifikation und unterstützt bei Festnahmen. Ist auf dem gleichen Level wie ein Wachmeister.",
     "lohn": "—",
     "ausruestung": "Wie Wachtmeister (gemäss Regelung)",
     "fahrzeuge": "—"
   },
   {
     "rang": "KRIPO Komissar",
-    "beschreibung": "Leitet Ermittlungen, koordiniert Einsätze und priorisiert Fälle.",
+    "beschreibung": "Leitet Ermittlungen, koordiniert Einsätze und priorisiert Fälle. Ist auf dem gleichen Level wie ein Adjutant.",
     "lohn": "—",
     "ausruestung": "Wie Adjutant (gemäss Regelung)",
     "fahrzeuge": "—"
   },
   {
     "rang": "KRIPO Stv. Generalinspektor",
-    "beschreibung": "Stellvertretende Leitung der KRIPO. Verantwortlich für Abläufe, Qualität und Eskalationen.",
+    "beschreibung": "Stellvertretende Leitung der KRIPO. Verantwortlich für Abläufe, Qualität und Eskalationen. Ist auf dem gleichen Level wie ein Leutnant.",
     "lohn": "—",
     "ausruestung": "—",
     "fahrzeuge": "—"
   },
   {
     "rang": "KRIPO Generalinspektor",
-    "beschreibung": "Leitung der KRIPO. Verantwortlich für Strategie, Einsatzfreigaben und grosse Ermittlungen.",
+    "beschreibung": "Leitung der KRIPO. Verantwortlich für Strategie, Einsatzfreigaben und grosse Ermittlungen. Ist auf dem gleichen Level wie ein Hauptmann.",
     "lohn": "—",
     "ausruestung": "—",
     "fahrzeuge": "—"
