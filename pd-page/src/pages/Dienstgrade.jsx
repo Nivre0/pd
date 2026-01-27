@@ -122,7 +122,7 @@ export default function Dienstgrade() {
         })}
       </div>
 
-      <AccordionList daten={daten} />
+      <AccordionList key={abteilung} daten={daten} />
     </div>
   );
 }
