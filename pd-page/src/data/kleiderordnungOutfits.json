@@ -1,17 +1,18 @@
 [
   {
     "title": "Aspirant",
-    "code": "MX2UYS",
+    "code": "TMTIOD",
     "image": "outfit_aspirant.png"
   },
   {
     "title": "Polizist (Sommer)",
-    "code": "FR11Y3",
+    "code": "L4ZM54",
     "image": "outfit_polizist_sommer.png"
   },
   {
     "title": "Polizist (Winter)",
-    "code": "LZ9K2V",
+    "code": null,
+    "note": "Kommt noch",
     "image": "outfit_polizist_winter.png"
   },
   {
@@ -22,12 +23,12 @@
   },
   {
     "title": "Diamant",
-    "code": "IDPQDO",
+    "code": "3FG9LL",
     "image": "outfit_diamant.png"
   },
   {
     "title": "KRIPO",
-    "code": "UVBMYK",
+    "code": "3BX9W6",
     "image": "outfit_kripo.png"
   }
 ]
